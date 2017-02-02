@@ -1,0 +1,16 @@
+name: flask-master
+summary: <Fill in summary here>
+maintainer: liam <liam@solar>
+description: |
+  <Multi-line description here>
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - misc
+series:
+  - xenial
+  - yakkety
+subordinate: false
+provides:
+  flask-master:
+    interface: flask-master

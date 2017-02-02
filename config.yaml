@@ -1,0 +1,10 @@
+options:
+  motd:
+    type: string
+    default: "Default Message from master"
+    description: "A short description of the configuration option"
+  elaborate:
+    type: boolean
+    default: false
+    description: "Make the message a bit more flowery!"
+
